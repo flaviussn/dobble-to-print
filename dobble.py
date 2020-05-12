@@ -238,14 +238,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--symbols_path",
         type=str,
-        default=os.path.join(os.getcwd(), "img"),
-        help="Path where PNG symbols are located. Default: /img",
+        default=os.path.join(os.getcwd(), "example_symbols"),
+        help="Path where PNG symbols are located. Default: ./example_symbols",
     )
     parser.add_argument(
         "--out_path",
         type=str,
         default=os.getcwd(),
-        help="Path where dobble PDF would be located. Default: /",
+        help="Path where dobble PDF would be located. Default: ./",
     )
     parser.add_argument(
         "--out_name",
